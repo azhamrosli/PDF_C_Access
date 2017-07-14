@@ -86,3 +86,12 @@ C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Download Borang C 2008.
 C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Borang C.exe
 C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Borang C.xml
 C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Borang C.pdb
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\bin\Release\TaxOffice\Taxoffice Taxcom C+\Borang C.exe
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\bin\Release\TaxOffice\Taxoffice Taxcom C+\Borang C.pdb
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\bin\Release\TaxOffice\Taxoffice Taxcom C+\Borang C.xml
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Download Borang C 2008.vbprojResolveAssemblyReference.cache
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Integration.frmDownloadMainMenu.resources
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Integration.frmDownloadPost.resources
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Integration.frmDownloadDetails.resources
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Integration.Resources.resources
+C:\Users\Azham\Documents\GitHub\PDF_C_Access\obj\Release\Download Borang C 2008.vbproj.GenerateResource.Cache

@@ -14,6 +14,7 @@ Public Class BorangC2017
     Private pdfReader As PdfReader
     Private pdfStamper As PdfStamper '(pdfReader, New FileStream( _
     '  newFile, FileMode.Create))
+
     Private pdfFormFields As AcroFields '= pdfStamper.AcroFields
     Private pdfFieldPath As String = "topmostSubform[0]."
     ' variable use for L1 - L8 calculation
@@ -2758,7 +2759,7 @@ Public Class BorangC2017
             End If
 
             ' L19 - L24 From Profit And Loss
-            cSQL = "SELECT PL_ADVERT, PL_TRAVEL, PL_OTHER_EXP, PL_NET_PROFIT_LOSS, PL_DISALLOWED_EXP, PL_TOT_EXP" _
+            cSQL = "SELECT PL_ADVERT, PL_TRAVEL, PL_OTHER_EXP, PL_NET_PROFIT_LOSS, PL_DISALLOWED_EXP, PL_TOT_EXP,PL_JKDM" _
                     & " FROM [PROFIT_LOSS_ACCOUNT]" _
                     & " WHERE [PL_REF_NO]='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(1).Value) _
                     & "' And PL_YA ='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(2).Value) & "'"
@@ -2777,6 +2778,7 @@ Public Class BorangC2017
                 End If
                 pdfFormFields.SetField(pdfFieldFullPath + "L23_2", (CDbl(Replace(dr("PL_NET_PROFIT_LOSS"), "-", ""))).ToString.Replace(",", ""))
                 pdfFormFields.SetField(pdfFieldFullPath + "L24", (CDbl(dr("PL_DISALLOWED_EXP"))).ToString.Replace(",", ""))
+                pdfFormFields.SetField(pdfFieldFullPath + "L26A", (CDbl(dr("PL_JKDM"))).ToString.Replace(",", ""))
             Else
                 pdfFormFields.SetField(pdfFieldFullPath + "L19", "0")
                 pdfFormFields.SetField(pdfFieldFullPath + "L20", "0")
@@ -2840,6 +2842,7 @@ Public Class BorangC2017
             Else
                 pdfFormFields.SetField(pdfFieldFullPath + "L25", "0")
                 pdfFormFields.SetField(pdfFieldFullPath + "L26", "0")
+                pdfFormFields.SetField(pdfFieldFullPath + "L26A", "0")
                 pdfFormFields.SetField(pdfFieldFullPath + "L27", "0")
                 pdfFormFields.SetField(pdfFieldFullPath + "L28", "0")
                 pdfFormFields.SetField(pdfFieldFullPath + "L29", "0")
