@@ -1,0 +1,34 @@
+obj\Debug\Integration.exe
+obj\Debug\Integration.xml
+obj\Debug\Integration.pdb
+bin\Debug\Integration.exe
+bin\Debug\Integration.pdb
+bin\Debug\Integration.xml
+bin\Debug\Interop.WMTImportLib.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Interop.WMTImportLib.dll
+obj\Debug\Download Borang C 2008.vbproj.ResolveComReference.cache
+obj\Debug\Integration.frmDownloadMainMenu.resources
+obj\Debug\Integration.frmDownloadPost.resources
+obj\Debug\Integration.frmDownloadDetails.resources
+obj\Debug\Integration.Resources.resources
+obj\Debug\Download Borang C 2008.vbproj.GenerateResource.Cache
+bin\Release\Integration.exe.config
+bin\Release\Integration.exe
+bin\Release\Integration.pdb
+bin\Release\Integration.xml
+bin\Release\Interop.WMTImportLib.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Interop.WMTImportLib.dll
+obj\Release\Download Borang C 2008.vbproj.ResolveComReference.cache
+obj\Release\Integration.frmDownloadMainMenu.resources
+obj\Release\Integration.frmDownloadPost.resources
+obj\Release\Integration.frmDownloadDetails.resources
+obj\Release\Integration.Resources.resources
+obj\Release\Download Borang C 2008.vbproj.GenerateResource.Cache
+obj\Release\Integration.exe
+obj\Release\Integration.xml
+obj\Release\Integration.pdb
+bin\Release\Interop.VBIDE.dll
+bin\Debug\Integration.exe.config
+bin\Debug\Interop.VBIDE.dll

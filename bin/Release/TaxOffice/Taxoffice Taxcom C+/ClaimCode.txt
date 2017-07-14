@@ -1,0 +1,62 @@
+101
+Equipment for the disabled
+102
+Translation and publication of books approved by Dewan Bahasa dan Pustaka
+103
+Expenditure on library facilities (maximum RM100,000)
+104
+Expenditure on public welfare/ amenities
+105
+Expenditure on child care centers
+106
+Expenditure on approved cultural group
+107
+expenditure on sponsoring approved arts or cultural activities (maksimum RM200,000)
+108
+Scholarship for diploma/ university students  receiving full time instructions
+109
+Expenditure for obtaining halal certification or quality systems and standards certification
+110
+Expenditure on scientific research
+111
+Incorporation expenditure
+112
+Deduction for cost of proprietary rights
+113
+Expenditure on corporate dept restructuring
+114
+Expenditure on information technology
+115
+Training expenses incurred (within one year) before commencement of a business
+116
+Contributions made to finance medical care and rehabilitation of the seriously ill individuals
+201
+Insurance premium of cargo imported
+202
+Employment of disabled person
+203
+Expenditure on training employees in the manufacturing, non manufacturing, hotel, tourism sector as well as for training of handicapped persons who are not employees of the company 
+204
+Insurance premium of exported cargo
+205
+Freight charges in respect of rattan and wood based products exported
+206
+Overseas expenditure for promotion to tourism
+207
+Expenditure on participation in an approved international trade fair for the promotion of exported
+208
+Premium for export credit insurance
+209
+Advertising expenditure on Malaysian brand name good
+210
+Further deduction for promotion of export
+211
+Deduction for promotion of exports of services
+212
+Freight charges from Sabah or Sarawak to Peninsula Malaysia
+301
+Revenue expenditure on research and development
+302
+Contribution/ expenditure made for the services of an approved research institute, approved research company or a contract research and development company
+303
+Expenditure on approved training for employees before commencement of manufacturing business

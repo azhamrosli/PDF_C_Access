@@ -1,0 +1,1041 @@
+<BorangC2006 xmlns="http://tempuri.org/BorangC2006_Data1.xsd">
+    <field name="I_1">
+    </field>
+    <field name="I_2">
+    </field>
+    <field name="II">
+    </field>
+    <field name="III">
+    </field>
+    <field name="IV">
+    </field>
+    <field name="V">
+    </field>
+    <field name="VI">
+    </field>
+    <field name="VII">
+    </field>
+    <field name="VIII">
+    </field>
+    <field name="IX">
+    </field>
+    <field name="X">
+    </field>
+    <field name="XI">
+    </field>
+    <field name="XII">2</field>
+    <field name="XIII">
+    </field>
+    <field name="A1">0</field>
+    <field name="A2_Pecahan">
+    </field>
+    <field name="A2_Cukai">
+    </field>
+    <field name="A3_Pecahan">
+    </field>
+    <field name="A3_Cukai">
+    </field>
+    <field name="A4_Pecahan">
+    </field>
+    <field name="A4_Cukai">
+    </field>
+    <field name="A5_Pecahan">
+    </field>
+    <field name="A5_Cukai">
+    </field>
+    <field name="A5A_Pecahan">
+    </field>
+    <field name="A5A_Cukai">
+    </field>
+    <field name="A6_Pecahan">
+    </field>
+    <field name="A6_Cukai">
+    </field>
+    <field name="A7_Pecahan">
+    </field>
+    <field name="A7_Kadar">
+    </field>
+    <field name="A7_Cukai">
+    </field>
+    <field name="A8">0</field>
+    <field name="A9">
+    </field>
+    <field name="A10">0</field>
+    <field name="A11">
+    </field>
+    <field name="A12">
+    </field>
+    <field name="A13">
+    </field>
+    <field name="A14">
+    </field>
+    <field name="A15">0</field>
+    <field name="A16">0</field>
+    <field name="A17">0</field>
+    <field name="B1">0</field>
+    <field name="B2">
+    </field>
+    <field name="B3">0</field>
+    <field name="B4">0</field>
+    <field name="C1_1">
+    </field>
+    <field name="C1_2">
+    </field>
+    <field name="C2_1">
+    </field>
+    <field name="C2_2">
+    </field>
+    <field name="C3_1">
+    </field>
+    <field name="C3_2">
+    </field>
+    <field name="C4_1">
+    </field>
+    <field name="C4_2">
+    </field>
+    <field name="C5_1">
+    </field>
+    <field name="C5_2">
+    </field>
+    <field name="C6_1">
+    </field>
+    <field name="C6_2">
+    </field>
+    <field name="C7_1">
+    </field>
+    <field name="C7_2">
+    </field>
+    <field name="C8_1">
+    </field>
+    <field name="C8_2">
+    </field>
+    <field name="C9_1">
+    </field>
+    <field name="C9_2">
+    </field>
+    <field name="C10_1">
+    </field>
+    <field name="C10_2">
+    </field>
+    <field name="C11">0</field>
+    <field name="C12">
+    </field>
+    <field name="C13">0</field>
+    <field name="C14">
+    </field>
+    <field name="C15">
+    </field>
+    <field name="C16">
+    </field>
+    <field name="C17">
+    </field>
+    <field name="C18">
+    </field>
+    <field name="C19">0</field>
+    <field name="C20">0</field>
+    <field name="C21">
+    </field>
+    <field name="C22">0</field>
+    <field name="C23">
+    </field>
+    <field name="C24">
+    </field>
+    <field name="C25">
+    </field>
+    <field name="C26">
+    </field>
+    <field name="C27">
+    </field>
+    <field name="C28">0</field>
+    <field name="C29">
+    </field>
+    <field name="C29A">
+    </field>
+    <field name="C29B">
+    </field>
+    <field name="C30">0</field>
+    <field name="C31">
+    </field>
+    <field name="C32">0</field>
+    <field name="C33">
+    </field>
+    <field name="D1_1">
+    </field>
+    <field name="D1_2">
+    </field>
+    <field name="D2_1">
+    </field>
+    <field name="D2_2">
+    </field>
+    <field name="D3_1">
+    </field>
+    <field name="D3_2">
+    </field>
+    <field name="D4_1">
+    </field>
+    <field name="D4_2">
+    </field>
+    <field name="D5_1">
+    </field>
+    <field name="D5_2">
+    </field>
+    <field name="D6_1">
+    </field>
+    <field name="D6_2">
+    </field>
+    <field name="D7_1">
+    </field>
+    <field name="D7_2">
+    </field>
+    <field name="D8_1">
+    </field>
+    <field name="D8_2">
+    </field>
+    <field name="D9_1">
+    </field>
+    <field name="D9_2">
+    </field>
+    <field name="D10_1">
+    </field>
+    <field name="D10_2">
+    </field>
+    <field name="D11">0</field>
+    <field name="E1a">
+    </field>
+    <field name="E1b">
+    </field>
+    <field name="E2a">
+    </field>
+    <field name="E2b">
+    </field>
+    <field name="E3a">
+    </field>
+    <field name="E3b">
+    </field>
+    <field name="E4a">
+    </field>
+    <field name="E4b">
+    </field>
+    <field name="E5a">
+    </field>
+    <field name="E5b">
+    </field>
+    <field name="E6a">
+    </field>
+    <field name="E6b">
+    </field>
+    <field name="E7a">
+    </field>
+    <field name="E7b">
+    </field>
+    <field name="E8a">
+    </field>
+    <field name="E8b">
+    </field>
+    <field name="E9a">
+    </field>
+    <field name="E9b">
+    </field>
+    <field name="E10a">
+    </field>
+    <field name="E10b">
+    </field>
+    <field name="E11">
+    </field>
+    <field name="E12">
+    </field>
+    <field name="F1a">
+    </field>
+    <field name="F1b">
+    </field>
+    <field name="F1Aa">
+    </field>
+    <field name="F1Ab">
+    </field>
+    <field name="F2a">
+    </field>
+    <field name="F2b">
+    </field>
+    <field name="F3a">
+    </field>
+    <field name="F3b">
+    </field>
+    <field name="F4a">
+    </field>
+    <field name="F4b">
+    </field>
+    <field name="F5a">
+    </field>
+    <field name="F5b">
+    </field>
+    <field name="F6">
+    </field>
+    <field name="G1a">
+    </field>
+    <field name="G1b">
+    </field>
+    <field name="G2a">
+    </field>
+    <field name="G2b">
+    </field>
+    <field name="G3a">
+    </field>
+    <field name="G3b">
+    </field>
+    <field name="G4a">
+    </field>
+    <field name="G4b">
+    </field>
+    <field name="G5a">
+    </field>
+    <field name="G5b">
+    </field>
+    <field name="G6a">
+    </field>
+    <field name="G6b">
+    </field>
+    <field name="G6Aa">
+    </field>
+    <field name="G6Ab">
+    </field>
+    <field name="G6Ba">
+    </field>
+    <field name="G6Bb">
+    </field>
+    <field name="G6Ca">
+    </field>
+    <field name="G6Cb">
+    </field>
+    <field name="G6Da">
+    </field>
+    <field name="G6Db">
+    </field>
+    <field name="G7">
+    </field>
+    <field name="G8">
+    </field>
+    <field name="G9">
+    </field>
+    <field name="G10">0</field>
+    <field name="G11">0</field>
+    <field name="H1">
+    </field>
+    <field name="H2">
+    </field>
+    <field name="H3">
+    </field>
+    <field name="H4">
+    </field>
+    <field name="H5">
+    </field>
+    <field name="H6">
+    </field>
+    <field name="H6A">
+    </field>
+    <field name="H7">
+    </field>
+    <field name="H7A">
+    </field>
+    <field name="H7B">
+    </field>
+    <field name="H8">
+    </field>
+    <field name="H9">
+    </field>
+    <field name="H10">
+    </field>
+    <field name="H11">
+    </field>
+    <field name="H12">
+    </field>
+    <field name="H13">
+    </field>
+    <field name="H14">
+    </field>
+    <field name="H15">
+    </field>
+    <field name="H16">
+    </field>
+    <field name="H17">
+    </field>
+    <field name="H18">
+    </field>
+    <field name="H19">0</field>
+    <field name="I1">
+    </field>
+    <field name="I2">
+    </field>
+    <field name="I3_Neg">
+    </field>
+    <field name="I3">0</field>
+    <field name="J1">
+    </field>
+    <field name="K1">
+    </field>
+    <field name="K2">
+    </field>
+    <field name="L1">
+    </field>
+    <field name="L2">
+    </field>
+    <field name="L3">
+    </field>
+    <field name="L4">
+    </field>
+    <field name="L4A">
+    </field>
+    <field name="L5">
+    </field>
+    <field name="L6">0</field>
+    <field name="L7_Neg">
+    </field>
+    <field name="L7">0</field>
+    <field name="L8">
+    </field>
+    <field name="L9">
+    </field>
+    <field name="L10">
+    </field>
+    <field name="L11">
+    </field>
+    <field name="L12">
+    </field>
+    <field name="L13">
+    </field>
+    <field name="L14">
+    </field>
+    <field name="L15">
+    </field>
+    <field name="L16">
+    </field>
+    <field name="L17">
+    </field>
+    <field name="L18">
+    </field>
+    <field name="L19">
+    </field>
+    <field name="L20">
+    </field>
+    <field name="L21">
+    </field>
+    <field name="L22">0</field>
+    <field name="L23_Neg">
+    </field>
+    <field name="L23">
+    </field>
+    <field name="L24">
+    </field>
+    <field name="L25">
+    </field>
+    <field name="L26">
+    </field>
+    <field name="L27">
+    </field>
+    <field name="L28">
+    </field>
+    <field name="L29">0</field>
+    <field name="L29A">
+    </field>
+    <field name="L30">
+    </field>
+    <field name="L31">
+    </field>
+    <field name="L32">
+    </field>
+    <field name="L32A">
+    </field>
+    <field name="L33">
+    </field>
+    <field name="L34">
+    </field>
+    <field name="L35">
+    </field>
+    <field name="L36">0</field>
+    <field name="L37">0</field>
+    <field name="L38">
+    </field>
+    <field name="L39">
+    </field>
+    <field name="L40">
+    </field>
+    <field name="L41">
+    </field>
+    <field name="L42">
+    </field>
+    <field name="L43">0</field>
+    <field name="L44">
+    </field>
+    <field name="L45">0</field>
+    <field name="L46">
+    </field>
+    <field name="L47_Neg">
+    </field>
+    <field name="L47">
+    </field>
+    <field name="L48">
+    </field>
+    <field name="L49_Neg">
+    </field>
+    <field name="L49">0</field>
+    <field name="L50_Neg">
+    </field>
+    <field name="L50">0</field>
+    <field name="M1_1">
+    </field>
+    <field name="M1_2">
+    </field>
+    <field name="M1_3">
+    </field>
+    <field name="M2_1">
+    </field>
+    <field name="M2_2">
+    </field>
+    <field name="M2_3">
+    </field>
+    <field name="M3_1">
+    </field>
+    <field name="M3_2">
+    </field>
+    <field name="M3_3">
+    </field>
+    <field name="M4_1">
+    </field>
+    <field name="M4_2">
+    </field>
+    <field name="M4_3">
+    </field>
+    <field name="N1">
+    </field>
+    <field name="N2">
+    </field>
+    <field name="N3">
+    </field>
+    <field name="N4">
+    </field>
+    <field name="N5">
+    </field>
+    <field name="N6">
+    </field>
+    <field name="N7">
+    </field>
+    <field name="N8">
+    </field>
+    <field name="N9">
+    </field>
+    <field name="N10">
+    </field>
+    <field name="N11">
+    </field>
+    <field name="N12">
+    </field>
+    <field name="O1_1">
+    </field>
+    <field name="O1_2">
+    </field>
+    <field name="O1_3">
+    </field>
+    <field name="O1_4">
+    </field>
+    <field name="O1_5">
+    </field>
+    <field name="O1_6">
+    </field>
+    <field name="O1_7">
+    </field>
+    <field name="O1_8">
+    </field>
+    <field name="O1_9">
+    </field>
+    <field name="O1_10">
+    </field>
+    <field name="O1_11">
+    </field>
+    <field name="O1_12">
+    </field>
+    <field name="O1_13">
+    </field>
+    <field name="O1_14">
+    </field>
+    <field name="O2_1">
+    </field>
+    <field name="O2_2">
+    </field>
+    <field name="O2_3">
+    </field>
+    <field name="O2_4">
+    </field>
+    <field name="O2_5">
+    </field>
+    <field name="O2_6">
+    </field>
+    <field name="O3">
+    </field>
+    <field name="O4_1">
+    </field>
+    <field name="O4_2">
+    </field>
+    <field name="O4_3">
+    </field>
+    <field name="O4_4">
+    </field>
+    <field name="O4_5">
+    </field>
+    <field name="O4_6">
+    </field>
+    <field name="O5_1">
+    </field>
+    <field name="O5_2">
+    </field>
+    <field name="O5_3">
+    </field>
+    <field name="O5_4">
+    </field>
+    <field name="O5_5">
+    </field>
+    <field name="O5_6">
+    </field>
+    <field name="O6">
+    </field>
+    <field name="O7">
+    </field>
+    <field name="O8_1">
+    </field>
+    <field name="O8_2">
+    </field>
+    <field name="O8_3">
+    </field>
+    <field name="O8_4">
+    </field>
+    <field name="O8_5">
+    </field>
+    <field name="O8_6">
+    </field>
+    <field name="O9">
+    </field>
+    <field name="O9A_1">
+    </field>
+    <field name="O9A_2">
+    </field>
+    <field name="O9A_3">
+    </field>
+    <field name="O9A_4">
+    </field>
+    <field name="O9A_5">
+    </field>
+    <field name="O9A_6">
+    </field>
+    <field name="O10_1">
+    </field>
+    <field name="O10_2">
+    </field>
+    <field name="O10_3">
+    </field>
+    <field name="O10_4">
+    </field>
+    <field name="O10_5">
+    </field>
+    <field name="O10_6">
+    </field>
+    <field name="O11_1">
+    </field>
+    <field name="O11_2">
+    </field>
+    <field name="O11_3">
+    </field>
+    <field name="O12_1">
+    </field>
+    <field name="O12_2">
+    </field>
+    <field name="O12_3">
+    </field>
+    <field name="O12_4">
+    </field>
+    <field name="O12_5">
+    </field>
+    <field name="O12_6">
+    </field>
+    <field name="O13_1">
+    </field>
+    <field name="O13_2">
+    </field>
+    <field name="O13_3">
+    </field>
+    <field name="O14_1">
+    </field>
+    <field name="O14_2">
+    </field>
+    <field name="O14_3">
+    </field>
+    <field name="O15_1">
+    </field>
+    <field name="O15_2">
+    </field>
+    <field name="O15_3">
+    </field>
+    <field name="O16_1">
+    </field>
+    <field name="O16_2">
+    </field>
+    <field name="O16_3">
+    </field>
+    <field name="P1_1">
+    </field>
+    <field name="P1_2">
+    </field>
+    <field name="P1_3">
+    </field>
+    <field name="P1_4">
+    </field>
+    <field name="P1_5">
+    </field>
+    <field name="P1_6">
+    </field>
+    <field name="P2_1">
+    </field>
+    <field name="P2_2">
+    </field>
+    <field name="P2_3">
+    </field>
+    <field name="P2_4">
+    </field>
+    <field name="P2_5">
+    </field>
+    <field name="P2_6">
+    </field>
+    <field name="P3_1">
+    </field>
+    <field name="P3_2">
+    </field>
+    <field name="P3_3">
+    </field>
+    <field name="P3_4">
+    </field>
+    <field name="P3_5">
+    </field>
+    <field name="P3_6">
+    </field>
+    <field name="P4_1">
+    </field>
+    <field name="P4_2">
+    </field>
+    <field name="P4_3">
+    </field>
+    <field name="P4_4">
+    </field>
+    <field name="P4_5">
+    </field>
+    <field name="P4_6">
+    </field>
+    <field name="P5_1">
+    </field>
+    <field name="P5_2">
+    </field>
+    <field name="P5_3">
+    </field>
+    <field name="P5_4">
+    </field>
+    <field name="P5_5">
+    </field>
+    <field name="P5_6">
+    </field>
+    <field name="Q1">
+    </field>
+    <field name="R1_1">
+    </field>
+    <field name="R1_2">
+    </field>
+    <field name="R2_1">
+    </field>
+    <field name="R2_2">
+    </field>
+    <field name="R2_3">
+    </field>
+    <field name="R2_4">
+    </field>
+    <field name="R2_5">
+    </field>
+    <field name="R2_6">
+    </field>
+    <field name="R3">
+    </field>
+    <field name="R4">
+    </field>
+    <field name="R5">
+    </field>
+    <field name="R6">
+    </field>
+    <field name="R7_1">
+    </field>
+    <field name="R7_2">
+    </field>
+    <field name="R8">
+    </field>
+    <field name="Akuan_1">
+    </field>
+    <field name="Akuan_2">
+    </field>
+    <field name="Akuan_3">
+    </field>
+    <field name="Akuan_4">
+    </field>
+    <field name="Akuan_5">
+    </field>
+    <field name="Akuan_6"></field>
+    <field name="Tahun taksiran">2006</field>
+    <field name="1a">
+    </field>
+    <field name="1b">
+    </field>
+    <field name="1cdari">
+    </field>
+    <field name="1chingga">
+    </field>
+    <field name="2a_1">
+    </field>
+    <field name="2b_1">
+    </field>
+    <field name="2c_1">
+    </field>
+    <field name="2d_1">
+    </field>
+    <field name="2e_1">
+    </field>
+    <field name="2f_1">
+    </field>
+    <field name="2a_2">
+    </field>
+    <field name="2b_2">
+    </field>
+    <field name="2c_2">
+    </field>
+    <field name="2d_2">
+    </field>
+    <field name="2e_2">
+    </field>
+    <field name="2f_2">
+    </field>
+    <field name="2a_3">
+    </field>
+    <field name="2b_3">
+    </field>
+    <field name="2c_3">
+    </field>
+    <field name="2d_3">
+    </field>
+    <field name="2e_3">
+    </field>
+    <field name="2f_3">
+    </field>
+    <field name="2a_4">
+    </field>
+    <field name="2b_4">
+    </field>
+    <field name="2c_4">
+    </field>
+    <field name="2d_4">
+    </field>
+    <field name="2e_4">
+    </field>
+    <field name="2f_4">
+    </field>
+    <field name="2a_5">
+    </field>
+    <field name="2b_5">
+    </field>
+    <field name="2c_5">
+    </field>
+    <field name="2d_5">
+    </field>
+    <field name="2e_5">
+    </field>
+    <field name="2f_5">
+    </field>
+    <field name="2a_6">
+    </field>
+    <field name="2b_6">
+    </field>
+    <field name="2c_6">
+    </field>
+    <field name="2d_6">
+    </field>
+    <field name="2e_6">
+    </field>
+    <field name="2f_6">
+    </field>
+    <field name="2a_7">
+    </field>
+    <field name="2b_7">
+    </field>
+    <field name="2c_7">
+    </field>
+    <field name="2d_7">
+    </field>
+    <field name="2e_7">
+    </field>
+    <field name="2f_7">
+    </field>
+    <field name="2a_8">
+    </field>
+    <field name="2b_8">
+    </field>
+    <field name="2c_8">
+    </field>
+    <field name="2d_8">
+    </field>
+    <field name="2e_8">
+    </field>
+    <field name="2f_8">
+    </field>
+    <field name="2a_9">
+    </field>
+    <field name="2b_9">
+    </field>
+    <field name="2c_9">
+    </field>
+    <field name="2d_9">
+    </field>
+    <field name="2e_9">
+    </field>
+    <field name="2f_9">
+    </field>
+    <field name="2a_10">
+    </field>
+    <field name="2b_10">
+    </field>
+    <field name="2c_10">
+    </field>
+    <field name="2d_10">
+    </field>
+    <field name="2e_10">
+    </field>
+    <field name="2f_10">
+    </field>
+    <field name="2a_11">
+    </field>
+    <field name="2b_11">
+    </field>
+    <field name="2c_11">
+    </field>
+    <field name="2d_11">
+    </field>
+    <field name="2e_11">
+    </field>
+    <field name="2f_11">
+    </field>
+    <field name="2a_12">
+    </field>
+    <field name="2b_12">
+    </field>
+    <field name="2c_12">
+    </field>
+    <field name="2d_12">
+    </field>
+    <field name="2e_12">
+    </field>
+    <field name="2f_12">
+    </field>
+    <field name="2a_13">
+    </field>
+    <field name="2b_13">
+    </field>
+    <field name="2c_13">
+    </field>
+    <field name="2d_13">
+    </field>
+    <field name="2e_13">
+    </field>
+    <field name="2f_13">
+    </field>
+    <field name="2a_14">
+    </field>
+    <field name="2b_14">
+    </field>
+    <field name="2c_14">
+    </field>
+    <field name="2d_14">
+    </field>
+    <field name="2e_14">
+    </field>
+    <field name="2f_14">
+    </field>
+    <field name="2a_15">
+    </field>
+    <field name="2b_15">
+    </field>
+    <field name="2c_15">
+    </field>
+    <field name="2d_15">
+    </field>
+    <field name="2e_15">
+    </field>
+    <field name="2f_15">
+    </field>
+    <field name="2a_16">
+    </field>
+    <field name="2b_16">
+    </field>
+    <field name="2c_16">
+    </field>
+    <field name="2d_16">
+    </field>
+    <field name="2e_16">
+    </field>
+    <field name="2f_16">
+    </field>
+    <field name="2a_17">
+    </field>
+    <field name="2b_17">
+    </field>
+    <field name="2c_17">
+    </field>
+    <field name="2d_17">
+    </field>
+    <field name="2e_17">
+    </field>
+    <field name="2f_17">
+    </field>
+    <field name="2a_18">
+    </field>
+    <field name="2b_18">
+    </field>
+    <field name="2c_18">
+    </field>
+    <field name="2d_18">
+    </field>
+    <field name="2e_18">
+    </field>
+    <field name="2f_18">
+    </field>
+    <field name="2a_19">
+    </field>
+    <field name="2b_19">
+    </field>
+    <field name="2c_19">
+    </field>
+    <field name="2d_19">
+    </field>
+    <field name="2e_19">
+    </field>
+    <field name="2f_19">
+    </field>
+    <field name="2a_20">
+    </field>
+    <field name="2b_20">
+    </field>
+    <field name="2c_20">
+    </field>
+    <field name="2d_20">
+    </field>
+    <field name="2e_20">
+    </field>
+    <field name="2f_20">
+    </field>
+    <field name="jum_amt_tuntut">0</field>
+    <field name="Nama_AkuanRK">
+    </field>
+    <field name="NoKP_AkuanRK">
+    </field>
+    <field name="Tarikh_AkuanRK">27-09-2006</field>
+    <field name="Jawatan_AkuanRK">
+    </field>
+</BorangC2006>
