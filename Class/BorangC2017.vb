@@ -241,7 +241,13 @@ Public Class BorangC2017
 
                 'azham 24-jun-2017
                 If IsDBNull(dr("TP_COM_STS")) = False Then
-                    pdfFormFields.SetField(pdfFieldFullPath + "X_2", dr("TP_COM_STS"), dr("TP_COM_STS"))
+                    Select Case dr("TP_COM_STS")
+                        Case "0"
+                            pdfFormFields.SetField(pdfFieldFullPath + "X_2", "1")
+                        Case "1", "2", "3"
+                            pdfFormFields.SetField(pdfFieldFullPath + "X_2", dr("TP_COM_STS"), dr("TP_COM_STS"))
+                    End Select
+
                 Else
                     pdfFormFields.SetField(pdfFieldFullPath + "X_2", "")
                 End If
