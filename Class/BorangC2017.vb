@@ -230,7 +230,7 @@ Public Class BorangC2017
                 'simkh 2012 su8.1
                 If IsDBNull(dr("TP_OPN_OPERATION")) = False Then
                     'DannyLee 2017 SU1
-                    If CStr(dr("TP_OPN_OPERATION")) = "00:00:00" Then
+                    If CStr(dr("TP_OPN_OPERATION")) = "00:00:00" OrElse Format(dr("TP_OPN_OPERATION"), "yyyy") = "1899" Then
                         pdfFormFields.SetField(pdfFieldFullPath + "VII_1", "")
                     Else
                         pdfFormFields.SetField(pdfFieldFullPath + "VII_1", Mid(Format(dr("TP_OPN_OPERATION"), "ddMMyyyy"), 1, 8))

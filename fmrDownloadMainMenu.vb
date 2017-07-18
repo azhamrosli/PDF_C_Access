@@ -249,4 +249,7 @@ Public Class frmDownloadMainMenu
     End Sub
 
 
+    Private Sub cboSearchCriteria_Click(sender As Object, e As EventArgs) Handles cboSearchCriteria.Click
+
+    End Sub
 End Class
