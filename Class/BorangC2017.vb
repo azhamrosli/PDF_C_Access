@@ -572,6 +572,7 @@ Public Class BorangC2017
 
                     ''Perkongsian
                     'pdfFormFields.SetField("C6_1", "---")
+
                     pdfFormFields.SetField("A6_2", "0")
                     'pdfFormFields.SetField("C7_1", "---")
                     pdfFormFields.SetField("A7_2", "0")
@@ -709,6 +710,7 @@ Public Class BorangC2017
                 End If
                 dr.Close()
 
+
                 cSQL = "Select [PS_FILE_NO2],[PS_FILE_NO3]" _
                         & " from [TAXP_PARTNERSHIP]" _
                         & " where [PS_KEY] = '" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(1).Value) & "' and [PS_YA] = '" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(2).Value) & "'" _
@@ -720,19 +722,20 @@ Public Class BorangC2017
 
 
                 Do While dr.Read()
-                    If I < 10 Then  'HoGie
+                    If I < 11 Then  'HoGie
                         strArray(I) = dr("PS_FILE_NO2") + dr("PS_FILE_NO3")
                     End If
 
                     I = I + 1
 
                     If I < 11 Then
-                        pdfFormFields.SetField(pdfFieldFullPath + "A" + I.ToString + "_1", dr("PS_FILE_NO2") + dr("PS_FILE_NO3"))
+                         pdfFormFields.SetField(pdfFieldFullPath + "A" + I.ToString + "_1", dr("PS_FILE_NO2") + dr("PS_FILE_NO3"))
                     End If
                 Loop
 
                 While I < 11
                     I = I + 1
+
                     pdfFormFields.SetField(pdfFieldFullPath + "A" + I.ToString + "_1", space(10))
 
                 End While
@@ -779,7 +782,7 @@ Public Class BorangC2017
                         ElseIf rowcount > 2 Then
                             ' Total Perkongsian for source more than 5 
                             lngTotalPartnerAmount = lngTotalPartnerAmount + CDbl(dr2("PN_TOTAL_STAT_INCOME"))
-                            pdfFormFields.SetField(pdfFieldFullPath + "A10_2", lngTotalPartnerAmount.ToString.Replace(",", ""))
+                            pdfFormFields.SetField(pdfFieldFullPath + "A9_2", lngTotalPartnerAmount.ToString.Replace(",", ""))
                         End If
 
 
@@ -793,10 +796,10 @@ Public Class BorangC2017
                     dr2.Close()
                 Loop
 
-                While I < 10        ' Still less than 5 source
-                    I = I + 1
-                    pdfFormFields.SetField(pdfFieldFullPath + "A" + I.ToString + "_2", "0")
-                End While
+                'While I < 10        ' Still less than 5 source
+                '    I = I + 1
+                '    pdfFormFields.SetField(pdfFieldFullPath + "A" + I.ToString + "_2", "0")
+                'End While
 
                 dr.Close()
                 'endweihong
@@ -2968,10 +2971,10 @@ Public Class BorangC2017
         Try
             ' ========= Part M ============
             cSQL = "SELECT WT_107A_GROSS, WT_107A_TAX, WT_109_GROSS, WT_109_TAX, WT_109A_GROSS, WT_109A_TAX," _
-                   & " WT_109B_GROSS, WT_109B_TAX, WT_109E_GROSS, WT_109E_TAX, WT_109F_GROSS, WT_109F_TAX" _
-                   & " FROM [WITHHOLD_TAX]" _
-                   & " WHERE [WT_REF_NO]='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(1).Value) _
-                   & "' And WT_YA ='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(2).Value) & "'"
+               & " WT_109B_GROSS, WT_109B_TAX, WT_109E_GROSS, WT_109E_TAX, WT_109F_GROSS, WT_109F_TAX,WT_109G_GROSS,WT_109G_TAX,WT_109G_NET" _
+               & " FROM [WITHHOLD_TAX]" _
+               & " WHERE [WT_REF_NO]='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(1).Value) _
+               & "' And WT_YA ='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(2).Value) & "'"
             dr = DataHandler.GetDataReader(cSQL, Conn)
 
             If dr.Read() Then
@@ -3068,21 +3071,26 @@ Public Class BorangC2017
                 End If
 
 
-                'simkh 2014
-                'If IsDBNull(dr("WT_109G_GROSS")) = False Then
-                '    pdfFormFields.SetField(pdfFieldFullPath + "M7_1", FormatNumber((CDbl(dr("WT_109G_GROSS"))), 0))
-                'Else
-                pdfFormFields.SetField(pdfFieldFullPath + "M7_1", "0")
-                'End If
-                'If IsDBNull(dr("WT_109G_TAX")) = False Then
-                'pdfFormFields.SetField(pdfFieldFullPath + "M7_2", FormatNumber((CDbl(dr("WT_109G_TAX"))), 0))
-                'Else
-                pdfFormFields.SetField(pdfFieldFullPath + "M7_2", "0")
-                'End If
-                'If IsDBNull(dr("WT_109G_GROSS")) = False Then
-                'pdfFormFields.SetField(pdfFieldFullPath + "M7_3", FormatNumber((CDbl(dr("WT_109G_GROSS")) - CDbl(dr("WT_109G_TAX"))), 0))
-                'Else
-                pdfFormFields.SetField(pdfFieldFullPath + "M7_3", "0")
+                If IsDBNull(dr("WT_109G_GROSS")) = False Then
+                    pdfFormFields.SetField(pdfFieldFullPath + "M7_1", FormatNumber((CDbl(dr("WT_109G_GROSS"))), 0))
+                Else
+                    pdfFormFields.SetField(pdfFieldFullPath + "M7_1", "0")
+                End If
+                '' pdfFormFields.SetField(pdfFieldFullPath + "M7_1", "0")
+                ''End If
+                If IsDBNull(dr("WT_109G_TAX")) = False Then
+                    pdfFormFields.SetField(pdfFieldFullPath + "M7_2", FormatNumber((CDbl(dr("WT_109G_TAX"))), 0))
+                Else
+                    pdfFormFields.SetField(pdfFieldFullPath + "M7_2", "0")
+                End If
+                ''pdfFormFields.SetField(pdfFieldFullPath + "M7_2", "0")
+                ''End If
+                If IsDBNull(dr("WT_109G_TAX")) = False AndAlso IsDBNull(dr("WT_109G_GROSS")) = False Then
+                    pdfFormFields.SetField(pdfFieldFullPath + "M7_3", FormatNumber((CDbl(dr("WT_109G_GROSS")) - CDbl(dr("WT_109G_TAX"))), 0))
+                Else
+                    pdfFormFields.SetField(pdfFieldFullPath + "M7_3", "0")
+                End If
+                'pdfFormFields.SetField(pdfFieldFullPath + "M7_3", "0")
                 'End If
                 'simkh end
 
