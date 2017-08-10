@@ -2713,7 +2713,7 @@ Public Class BorangC2016
             End If
 
             ' L19 - L24 From Profit And Loss
-            cSQL = "SELECT PL_ADVERT, PL_TRAVEL, PL_OTHER_EXP, PL_NET_PROFIT_LOSS, PL_DISALLOWED_EXP, PL_TOT_EXP" _
+            cSQL = "SELECT PL_ADVERT, PL_TRAVEL, PL_OTHER_EXP, PL_NET_PROFIT_LOSS, PL_DISALLOWED_EXP, PL_TOT_EXP, PL_JKDM" _
                     & " FROM [PROFIT_LOSS_ACCOUNT]" _
                     & " WHERE [PL_REF_NO]='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(1).Value) _
                     & "' And PL_YA ='" & Trim(frmDownloadMainMenu.dgdDownload.SelectedRows.Item(0).Cells(2).Value) & "'"
@@ -2721,6 +2721,7 @@ Public Class BorangC2016
             If dr.Read() Then
                 pdfFormFields.SetField(pdfFieldFullPath + "L19", CDbl(dr("PL_ADVERT")).ToString.Replace(",", ""))
                 pdfFormFields.SetField(pdfFieldFullPath + "L20", CDbl(dr("PL_TRAVEL")).ToString.Replace(",", ""))
+                pdfFormFields.SetField(pdfFieldFullPath + "L26A", CDbl(dr("PL_JKDM")).ToString.Replace(",", ""))
                 pdfFormFields.SetField(pdfFieldFullPath + "L22_1", RugiAsing) 'weihong
                 'pdfFormFields.SetField(pdfFieldFullPath + "L21", CDbl(dr("PL_OTHER_EXP")).ToString.Replace(",", ""))
                 pdfFormFields.SetField(pdfFieldFullPath + "L21", CDbl(dr("PL_OTHER_EXP")).ToString.Replace(",", "") - RugiAsing) 'pdfFormFields.SetField(pdfFieldFullPath + "L21", CDbl(dr("PL_OTHER_EXP")).ToString.Replace(",", ""))
@@ -2740,6 +2741,7 @@ Public Class BorangC2016
                 pdfFormFields.SetField(pdfFieldFullPath + "L22", "0")
                 pdfFormFields.SetField(pdfFieldFullPath + "L23_2", "0")
                 pdfFormFields.SetField(pdfFieldFullPath + "L24", "0")
+                pdfFormFields.SetField(pdfFieldFullPath + "L26A", "0")
 
             End If
 
